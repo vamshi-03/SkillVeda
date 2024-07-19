@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SkillVeda (Elearning-Platform-Using-MERNStack)
 Software Engineering Course Project
 
