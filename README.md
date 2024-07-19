@@ -61,7 +61,7 @@ This is an Elearning Platform built using the MERN (MongoDB, Express.js, React.j
 1. Clone the repository:
 
 ```bash
-https://github.com/vamshi-03/Elearning-Platform-Using-MERN.git
+https://github.com/vamshi-03/SkillVeda.git
 ```
 
 2. Navigate to the project directory:
