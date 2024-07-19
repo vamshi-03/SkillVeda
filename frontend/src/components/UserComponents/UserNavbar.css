@@ -1,0 +1,89 @@
+.navbar {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 12;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .navbar-logo {
+    cursor: pointer;
+  }
+  
+  .logo-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0056d2;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    border: 1px solid black;
+    font-size: 0.9rem;
+    color: black;
+    border-radius: 10px 0 0 10px;
+    padding: 0.5rem;
+  }
+  
+  .search-button {
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 0.7rem;
+    cursor: pointer;
+  }
+  
+  .menu-button {
+    background-color: #0056d2;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .mobile-search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .teach-link {
+    margin-right: 1rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .teach-link:hover {
+    color: #003e9c;
+    text-decoration: underline;
+  }
+  

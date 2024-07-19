@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    height: 99vh;
+    width: 94%;
+    gap: 10px;
+    margin: 2rem;
+  }
+  
+  .nav-top {
+    margin-top: 4rem;
+  }
+  
+  .form-container {
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 10px;
+    height: 90%;
+  }
+  
+  .form-group {
+    margin-top: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .submit-button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #2b6cb0;
+  }
+  

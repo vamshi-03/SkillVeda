@@ -1,0 +1,19 @@
+.course-component {
+    padding: 1rem;
+  }
+  
+  .course-section {
+    margin-bottom: 1rem;
+  }
+  
+  .course-heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+  

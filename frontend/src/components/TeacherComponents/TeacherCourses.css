@@ -1,0 +1,53 @@
+/* Replace with your desired CSS styles */
+.nav-container {
+    height: 99vh;
+    width: 94%;
+    display: grid;
+    gap: 10px;
+  }
+  
+  .course-container {
+    margin-top: 90px;
+  }
+  
+  .course-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .course-select {
+    width: 80%;
+  }
+  
+  .course-create a {
+    font-weight: bold;
+  }
+  
+  .course-table-content {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .course-table-content th,
+  .course-table-content td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .course-table-content th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .pagination-container button {
+    margin-left: 10px;
+  }
+  

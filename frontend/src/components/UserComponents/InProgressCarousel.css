@@ -1,0 +1,38 @@
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+    height: 450px;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 800px) {
+    .carousel-container {
+      height: 420px;
+    }
+  }
+  
+  .empty-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f3ea;
+    padding: 1rem;
+  }
+  
+  .empty-image-wrapper {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .empty-image {
+    display: block;
+    width: 100%;
+  }
+  
+  .empty-text {
+    font-weight: bold;
+  }
+  

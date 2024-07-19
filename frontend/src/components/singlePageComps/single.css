@@ -1,0 +1,157 @@
+.container {
+    border: 1px solid #fff;
+    max-width: 280px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #000;
+    margin: auto;
+  }
+  
+  .course-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tab-container {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 14px;
+    height: 48px;
+    align-items: center;
+  }
+  
+  .tab {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #000;
+  }
+  
+  .active-tab {
+    border-bottom: 3px solid #000;
+  }
+  
+  .content {
+    padding: 24px;
+  }
+  
+  .title {
+    font-family: serif;
+    font-weight: bold;
+    max-width: 250px;
+    padding: 8px 0;
+  }
+  
+  .description {
+    font-size: 10px;
+  }
+  
+  .learn-more {
+    text-decoration: underline;
+    color: #d16ba5;
+    font-weight: bold;
+  }
+  
+  .subscribe-button {
+    background-color: #d16ba5;
+    width: 100%;
+    padding: 7px;
+    font-weight: 600;
+    margin: 8px 0;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+  }
+  
+  .price-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9px;
+    margin: 8px 0;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  
+  .line {
+    height: 1px;
+    background-color: #b0bec5;
+    flex: 1;
+  }
+  
+  .or {
+    margin: 0 8px;
+    font-size: 10px;
+  }
+  
+  .discount-info {
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .current-price {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    font-size: 12px;
+    text-decoration: line-through;
+    margin: 0 8px;
+  }
+  
+  .discount {
+    font-size: 12px;
+  }
+  
+  .time-left {
+    display: flex;
+    align-items: baseline;
+    color: #e57373;
+    font-size: 12px;
+    margin: 8px 0;
+  }
+  
+  .time {
+    font-weight: bold;
+  }
+  
+  .time-desc {
+    margin-left: 4px;
+  }
+  
+  .buy-button {
+    border: 2px solid #000;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .guarantee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    margin: 16px 0;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 16px;
+  }
+  
